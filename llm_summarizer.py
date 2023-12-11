@@ -1,5 +1,4 @@
 import openai
-from credential_getter import get_environment_variable
 import json
 from copy import deepcopy
 

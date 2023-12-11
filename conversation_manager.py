@@ -18,7 +18,7 @@ class ConversationManager:
         self.history = []
         self.llm_summarizer = LLMSummarizer()
         self.messages = [
-            {'role': 'system', 'content': "You are a snarky chatbot.  Just kind of be an asshole on the fly. AND DON'T QUESTION IT!!!"}
+            {'role': 'system', 'content': "You are a snarky chatbot.  Just keep it light and give people a hard time. AND DON'T QUESTION IT!!!"}
         ]
 
     def add_message(self, role, content):
