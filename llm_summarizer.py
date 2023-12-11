@@ -2,7 +2,7 @@ import openai
 import json
 from copy import deepcopy
 
-openai.api_key = get_environment_variable("OPENAI_KEY")
+openai.api_key_path = 'creds'
 
 def concatenate_strings(string_list):
     """

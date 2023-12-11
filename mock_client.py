@@ -13,7 +13,7 @@ def disconnect():
     print("I'm disconnected from the chat server!")
 
 # Connect to the Flask Socket.IO server
-sio.connect('http://127.0.0.1:5000')
+sio.connect('http://127.0.0.1:5151')
 
 # Sending 10 messages with a delay
 for i in range(1, 11):
